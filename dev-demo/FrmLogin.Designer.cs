@@ -31,13 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogin));
             this.tablePanel1 = new DevExpress.Utils.Layout.TablePanel();
             this.btnLogin = new DevExpress.XtraEditors.SimpleButton();
-            this.txtUserPwd = new DevExpress.XtraEditors.TextEdit();
-            this.txtUserName = new DevExpress.XtraEditors.TextEdit();
             this.lblErrMsg = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.txtUserPwd = new DevExpress.XtraEditors.TextEdit();
+            this.txtUserName = new DevExpress.XtraEditors.TextEdit();
+            this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             ((System.ComponentModel.ISupportInitialize)(this.tablePanel1)).BeginInit();
             this.tablePanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtUserPwd.Properties)).BeginInit();
@@ -79,29 +79,6 @@
             this.btnLogin.TabIndex = 6;
             this.btnLogin.Text = "登录";
             // 
-            // txtUserPwd
-            // 
-            this.tablePanel1.SetColumn(this.txtUserPwd, 1);
-            this.txtUserPwd.Dock = System.Windows.Forms.DockStyle.Left;
-            this.txtUserPwd.EditValue = "123456";
-            this.txtUserPwd.Location = new System.Drawing.Point(119, 30);
-            this.txtUserPwd.Name = "txtUserPwd";
-            this.txtUserPwd.Properties.PasswordChar = '*';
-            this.tablePanel1.SetRow(this.txtUserPwd, 1);
-            this.txtUserPwd.Size = new System.Drawing.Size(218, 20);
-            this.txtUserPwd.TabIndex = 5;
-            // 
-            // txtUserName
-            // 
-            this.txtUserName.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.tablePanel1.SetColumn(this.txtUserName, 1);
-            this.txtUserName.EditValue = "admin";
-            this.txtUserName.Location = new System.Drawing.Point(119, 3);
-            this.txtUserName.Name = "txtUserName";
-            this.tablePanel1.SetRow(this.txtUserName, 0);
-            this.txtUserName.Size = new System.Drawing.Size(218, 20);
-            this.txtUserName.TabIndex = 4;
-            // 
             // lblErrMsg
             // 
             this.lblErrMsg.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -137,6 +114,39 @@
             this.labelControl1.TabIndex = 1;
             this.labelControl1.Text = "账号";
             // 
+            // labelControl3
+            // 
+            this.labelControl3.Appearance.BackColor = System.Drawing.Color.White;
+            this.labelControl3.Appearance.Options.UseBackColor = true;
+            this.labelControl3.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.labelControl3.Location = new System.Drawing.Point(61, 306);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(456, 3);
+            this.labelControl3.TabIndex = 1;
+            // 
+            // txtUserPwd
+            // 
+            this.tablePanel1.SetColumn(this.txtUserPwd, 1);
+            this.txtUserPwd.Dock = System.Windows.Forms.DockStyle.Left;
+            this.txtUserPwd.EditValue = "123456";
+            this.txtUserPwd.Location = new System.Drawing.Point(119, 30);
+            this.txtUserPwd.Name = "txtUserPwd";
+            this.txtUserPwd.Properties.PasswordChar = '*';
+            this.tablePanel1.SetRow(this.txtUserPwd, 1);
+            this.txtUserPwd.Size = new System.Drawing.Size(218, 20);
+            this.txtUserPwd.TabIndex = 5;
+            // 
+            // txtUserName
+            // 
+            this.txtUserName.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.tablePanel1.SetColumn(this.txtUserName, 1);
+            this.txtUserName.EditValue = "admin";
+            this.txtUserName.Location = new System.Drawing.Point(119, 3);
+            this.txtUserName.Name = "txtUserName";
+            this.tablePanel1.SetRow(this.txtUserName, 0);
+            this.txtUserName.Size = new System.Drawing.Size(218, 20);
+            this.txtUserName.TabIndex = 4;
+            // 
             // pictureEdit1
             // 
             this.pictureEdit1.EditValue = global::dev_demo.Properties.Resources.loginPic;
@@ -149,16 +159,6 @@
             this.pictureEdit1.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom;
             this.pictureEdit1.Size = new System.Drawing.Size(334, 71);
             this.pictureEdit1.TabIndex = 0;
-            // 
-            // labelControl3
-            // 
-            this.labelControl3.Appearance.BackColor = System.Drawing.Color.White;
-            this.labelControl3.Appearance.Options.UseBackColor = true;
-            this.labelControl3.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl3.Location = new System.Drawing.Point(61, 306);
-            this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(456, 3);
-            this.labelControl3.TabIndex = 1;
             // 
             // FrmLogin
             // 

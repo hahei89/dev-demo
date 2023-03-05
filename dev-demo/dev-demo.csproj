@@ -42,6 +42,7 @@
     <Reference Include="DevExpress.Printing.v22.1.Core, Version=22.1.3.0, Culture=neutral, PublicKeyToken=d68f4014d08155be" />
     <Reference Include="DevExpress.Sparkline.v22.1.Core, Version=22.1.3.0, Culture=neutral, PublicKeyToken=d68f4014d08155be" />
     <Reference Include="DevExpress.Utils.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=d68f4014d08155be" />
+    <Reference Include="DevExpress.XtraBars.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=d68f4014d08155be" />
     <Reference Include="DevExpress.XtraEditors.v22.1, Version=22.1.3.0, Culture=neutral, PublicKeyToken=d68f4014d08155be" />
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
@@ -103,6 +104,9 @@
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -150,7 +154,15 @@
     <Folder Include="Utility\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="imgs\baoguopaisong.png" />
+    <Content Include="imgs\close.png" />
+    <Content Include="imgs\huojia.png" />
+    <Content Include="imgs\kuaidi.png" />
     <Content Include="imgs\loginPic.png" />
+    <Content Include="imgs\logo2.jpg" />
+    <Content Include="imgs\yuangongguanli-.png" />
+    <Content Include="imgs\zhandianguanli.png" />
+    <Content Include="imgs\zitigui.png" />
     <Content Include="imgs\zxlogo.ico" />
     <None Include="Resources\loginPic.png" />
   </ItemGroup>
