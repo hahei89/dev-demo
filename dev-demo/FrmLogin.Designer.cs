@@ -1,6 +1,6 @@
 ﻿namespace dev_demo
 {
-    partial class Form1
+    partial class FrmLogin
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -28,10 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogin));
+            this.SuspendLayout();
+            // 
+            // FrmLogin
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(136)))), ((int)(((byte)(207)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "FrmLogin";
+            this.Text = "菜鸟驿站管理系统登录";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
